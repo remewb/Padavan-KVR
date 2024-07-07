@@ -59,7 +59,6 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ALIDDNS/d' .config
         echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config 
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER/d' .config
